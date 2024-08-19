@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone-Paper-Scissor</title>
+    <link rel="stylesheet" href="fontawesome.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <h1 class="text-center bg-blue white p-5 head">Stone-Papper-Scissor</h1>
+
+    <!-- --home -->
+    <div class="container display-none">
+      <div class="pbtn">
+        <button class="play-game">Play</button>
+      </div>
+    </div>
+    <!-- --starts -->
+
+    <div class="main">
+      <div class="main-body border-blue">
+        <p class="text-center note">
+          <strong>*Note:</strong>Game Over whose score become 10
+        </p>
+
+        <div class="game">
+          <div class="row">
+            <div class="verces">
+              <div class="box">
+                <i class="border-blue" id="p"></i>
+                <h2 class="text-center mb-20">Player</h2>
+              </div>
+              <h1>VS</h1>
+              <div class="box">
+                <i class="border-blue" id="c"></i>
+                <h2 class="text-center mb-20">Computer</h2>
+              </div>
+            </div>
+            <div class="msg mb-20"></div>
+            <div class="detail">
+              <h2 class="text-center border-blue">Score Board</h2>
+              <div class="score">
+                <div>
+                  <p id="player">0</p>
+                  <h3>YOU</h3>
+                </div>
+                <div>
+                  <p id="computer">0</p>
+                  <h3>SYSTEM</h3>
+                </div>
+              </div>
+            </div>
+            <h3>Select Option</h3>
+            <div class="icon">
+              <button class="select">
+                <i class="fa-solid fa-hand-fist"></i>Stone
+              </button>
+              <button class="select">
+                <i class="fa-solid fa-hand"></i>Paper
+              </button>
+              <button class="select">
+                <i class="fa-solid fa-hand-peace"></i>Scissor
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
